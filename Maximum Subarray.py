@@ -27,6 +27,7 @@ def getMaximum(nums):
 def method2(nums,n):
     maxV = 0
     return maxArray(nums,0,n-1,maxV)
+
 def maxArray(nums,left,right,maxV):
     if left > right:
         return 0
