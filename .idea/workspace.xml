@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb226ce9-3fc1-4252-806b-4637f7fe6783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Largest Divisible Subset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/arry_sum_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/reverse_arry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Climbing Stairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic programming/Climbing Stairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maximum Subarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic programming/Maximum Subarray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Perfect Squares.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic programming/Perfect Squares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular Expression Matching.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic programming/Regular Expression Matching.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unique Binary Search Trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic programming/Unique Binary Search Trees.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unique Binary Search Trees2.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic programming/Unique Binary Search Trees2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unique Paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic programming/Unique Paths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/egg_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic programming/egg_problem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/longestPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic programming/longestPalindrome.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +32,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github\LeetCode\Sort" />
       <recent name="E:\github\LeetCode\dynamic programming" />
     </key>
   </component>
@@ -55,29 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Largest Divisible Subset">
-    <configuration name="Climbing Stairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\github\LeetCode\dynamic programming\Climbing Stairs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.arry_sum_number">
     <configuration name="Largest Divisible Subset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unique Binary Search Trees II" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="arry_sum_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,12 +101,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sort" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\github\LeetCode\dynamic programming\Unique Binary Search Trees.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort/arry_sum_number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,13 +137,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="reverse_arry" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\github\LeetCode\Sort\reverse_arry.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.arry_sum_number" />
+        <item itemvalue="Python.reverse_arry" />
         <item itemvalue="Python.Largest Divisible Subset" />
         <item itemvalue="Python.Perfect Squares" />
         <item itemvalue="Python.egg_problem" />
-        <item itemvalue="Python.Unique Binary Search Trees II" />
-        <item itemvalue="Python.Climbing Stairs" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +185,8 @@
       <workItem from="1572513155877" duration="368000" />
       <workItem from="1572517383802" duration="3990000" />
       <workItem from="1572632099110" duration="5476000" />
-      <workItem from="1572720875577" duration="1200000" />
+      <workItem from="1572720875577" duration="4916000" />
+      <workItem from="1572812486598" duration="3278000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1572259078653</created>
@@ -229,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572639494304</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day6">
+      <created>1572730273840</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572730273840</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,13 +253,16 @@
     <MESSAGE value="day1" />
     <MESSAGE value="day4" />
     <MESSAGE value="day5" />
-    <option name="LAST_COMMIT_MESSAGE" value="day5" />
+    <MESSAGE value="day6" />
+    <option name="LAST_COMMIT_MESSAGE" value="day6" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$egg_problem.coverage" NAME="egg_problem Coverage Results" MODIFIED="1572637296590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$Maximum_Subarray.coverage" NAME="Maximum Subarray Coverage Results" MODIFIED="1572258052069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$Unique_Binary_Search_Trees_II.coverage" NAME="Unique Binary Search Trees II Coverage Results" MODIFIED="1572520670383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$Perfect_Squares.coverage" NAME="Perfect Squares Coverage Results" MODIFIED="1572639410381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$reverse_arry.coverage" NAME="reverse_arry Coverage Results" MODIFIED="1572732595359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$arry_sum_number.coverage" NAME="arry_sum_number Coverage Results" MODIFIED="1572815891335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/LeetCode$Largest_Divisible_Subset.coverage" NAME="Largest Divisible Subset Coverage Results" MODIFIED="1572730241703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$Regular_Expression_Matching.coverage" NAME="Regular Expression Matching Coverage Results" MODIFIED="1572344830405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$Climbing_Stairs.coverage" NAME="Climbing Stairs Coverage Results" MODIFIED="1572517956042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
