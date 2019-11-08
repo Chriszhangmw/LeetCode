@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb226ce9-3fc1-4252-806b-4637f7fe6783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sort/Merge Intervals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/Merge Intervals.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/Merge Intervals.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +189,9 @@
       <workItem from="1572866519927" duration="722000" />
       <workItem from="1572902451322" duration="599000" />
       <workItem from="1572943572411" duration="11000" />
-      <workItem from="1572990170734" duration="3094000" />
+      <workItem from="1572990170734" duration="4625000" />
+      <workItem from="1573038421684" duration="154000" />
+      <workItem from="1573253529296" duration="1160000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1572259078653</created>
@@ -234,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572730273840</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="day7">
+      <created>1572993344630</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572993344630</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +266,8 @@
     <MESSAGE value="day4" />
     <MESSAGE value="day5" />
     <MESSAGE value="day6" />
-    <option name="LAST_COMMIT_MESSAGE" value="day6" />
+    <MESSAGE value="day7" />
+    <option name="LAST_COMMIT_MESSAGE" value="day7" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$egg_problem.coverage" NAME="egg_problem Coverage Results" MODIFIED="1572637296590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -271,6 +280,6 @@
     <SUITE FILE_PATH="coverage/LeetCode$Largest_Divisible_Subset.coverage" NAME="Largest Divisible Subset Coverage Results" MODIFIED="1572730241703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$Regular_Expression_Matching.coverage" NAME="Regular Expression Matching Coverage Results" MODIFIED="1572344830405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$Climbing_Stairs.coverage" NAME="Climbing Stairs Coverage Results" MODIFIED="1572517956042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LeetCode$Merge_Intervals.coverage" NAME="Merge Intervals Coverage Results" MODIFIED="1572993310979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
+    <SUITE FILE_PATH="coverage/LeetCode$Merge_Intervals.coverage" NAME="Merge Intervals Coverage Results" MODIFIED="1573254674723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
   </component>
 </project>

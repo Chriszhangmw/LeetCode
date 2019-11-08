@@ -32,11 +32,11 @@ def maopao(nums):
 def charu(nums):
     for i in range(1,len(nums)):
         current = nums[i]
-        for j in range(i-1,-1,-1):
-            if current > nums[j]:
-                nums[j+1] = current
-            else:
-                nums[j+1] = nums[j]
+        j = i-1
+        while j>=0 and nums[j] > current:
+            nums[j+1] = nums[j]
+            j-=1
+        nums[j+1] = current
     print(nums)
 
 
