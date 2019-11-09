@@ -38,10 +38,49 @@ def charu(nums):
             j-=1
         nums[j+1] = current
     print(nums)
+def add(nums1,nums2):
+    i = 0
+    j = 0
+    result = []
+    while i < len(nums1) and j < len(nums2):
+        if nums1[i] <= nums2[j]:
+            result.append(nums1[i])
+            i+=1
+        else:
+            result.append(nums2[j])
+            j+=1
+    result+=nums1[i:]
+    result+=nums2[j:]
+    return result
+def merge_sort(nums):
+    if len(nums) < 2:
+        return nums
+    right = len(nums)
+    mid = int(right/2)
+    nums1 = merge_sort(nums[:mid])
+    nums2 = merge_sort(nums[mid:])
+    return add(nums1,nums2)
+
+
+def quick(nums):
+    if len(nums) <2:
+        return nums
+    midValue = nums[0]
+    left = [v for v in nums if v < midValue]
+    right = [v for v in nums if v > midValue]
+    res = []
+    a = quick(left)
+    b = quick(right)
+    res+=a
+    res.append(midValue)
+    res+=b
+    return res
+
 
 
 nums = [2,4,6,1,8,3,5,0]
-charu(nums)
+a = quick(nums)
+print(a)
 
 def method1(nums):
     hasChange = True
