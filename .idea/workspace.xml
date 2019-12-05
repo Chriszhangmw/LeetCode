@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb226ce9-3fc1-4252-806b-4637f7fe6783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Search/Find Right Interval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/Pow(x, n).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/Sqrt(x).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/draw_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/Guess Number Higher or Lower.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Search/draw_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search/draw_plot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +34,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github\LeetCode" />
       <recent name="E:\github\LeetCode\Sort" />
       <recent name="E:\github\LeetCode\dynamic programming" />
     </key>
@@ -50,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Pow(x, n)">
+  <component name="RunManager" selected="Python.draw_plot">
     <configuration name="4Sum II" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Pow(x, n)" />
         <item itemvalue="Python.draw_plot" />
+        <item itemvalue="Python.Pow(x, n)" />
         <item itemvalue="Python.4Sum II" />
         <item itemvalue="Python.Arranging Coins" />
         <item itemvalue="Python.Ugly Number III" />
@@ -212,7 +213,10 @@
       <workItem from="1574720043979" duration="341000" />
       <workItem from="1574760595251" duration="96000" />
       <workItem from="1574804224991" duration="1712000" />
-      <workItem from="1574887971329" duration="1629000" />
+      <workItem from="1574887971329" duration="1856000" />
+      <workItem from="1575469156243" duration="1427000" />
+      <workItem from="1575491173616" duration="1026000" />
+      <workItem from="1575560453155" duration="1610000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1572259078653</created>
@@ -326,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574624416534</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="day 17">
+      <created>1574889666477</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1574889666477</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +371,8 @@
     <MESSAGE value="day 14" />
     <MESSAGE value="day 15" />
     <MESSAGE value="day 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 16" />
+    <MESSAGE value="day 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 17" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$egg_problem.coverage" NAME="egg_problem Coverage Results" MODIFIED="1572637296590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -370,7 +382,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$Largest_Number.coverage" NAME="Largest Number Coverage Results" MODIFIED="1573422065552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/LeetCode$arry_sum_number.coverage" NAME="arry_sum_number Coverage Results" MODIFIED="1572815891335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/LeetCode$Regular_Expression_Matching.coverage" NAME="Regular Expression Matching Coverage Results" MODIFIED="1572344830405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LeetCode$draw_plot.coverage" NAME="draw_plot Coverage Results" MODIFIED="1574720312753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
+    <SUITE FILE_PATH="coverage/LeetCode$draw_plot.coverage" NAME="draw_plot Coverage Results" MODIFIED="1575491582088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$Merge_Intervals.coverage" NAME="Merge Intervals Coverage Results" MODIFIED="1573336986559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/LeetCode$Time_Based_Key_Value_Store.coverage" NAME="Time Based Key-Value Store Coverage Results" MODIFIED="1574200979673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$K_Closest_Points_to_Origin.coverage" NAME="K Closest Points to Origin Coverage Results" MODIFIED="1573598934461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
