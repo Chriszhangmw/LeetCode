@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb226ce9-3fc1-4252-806b-4637f7fe6783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Search/Guess Number Higher or Lower.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a-data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search/draw_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search/draw_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Search/Guess Number Higher or Lower.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search/Guess Number Higher or Lower.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +213,7 @@
       <workItem from="1574887971329" duration="1856000" />
       <workItem from="1575469156243" duration="1427000" />
       <workItem from="1575491173616" duration="1026000" />
-      <workItem from="1575560453155" duration="1610000" />
+      <workItem from="1575560453155" duration="2856000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1572259078653</created>
@@ -337,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574889666477</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="day 18">
+      <created>1575563902553</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1575563902553</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +376,8 @@
     <MESSAGE value="day 15" />
     <MESSAGE value="day 16" />
     <MESSAGE value="day 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 17" />
+    <MESSAGE value="day 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 18" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$egg_problem.coverage" NAME="egg_problem Coverage Results" MODIFIED="1572637296590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
