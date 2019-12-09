@@ -51,7 +51,45 @@ quick_sort(nums)
 
 
 
+class test:
+    def method2(self,root,k):
+        self.count = 0
+        self.res = 0
+        def middle(root):
+            if self.count < k:
+                if root.left:
+                    middle(root.left)
+                self.count +=1
+                if self.count == k:
+                    self.res = root.val
+                    return
+                if root.right:
+                    middle(root.right)
+        if root:
+            middle(root)
+        return self.res
 
+
+
+class Solution(object):
+    def kthSmallest(self, root, k):
+        """
+        :type root: TreeNode
+        :type k: int
+        :rtype: int
+        """
+        stack = []
+        res = 0
+        while 1 :
+            while root :
+                stack.append(root)
+                root = root.left
+            if not stack : break
+            root = stack.pop()
+            k -= 1
+            if k == 0 : return root.val 
+            root = root.right
+        return 0
 
 
 
