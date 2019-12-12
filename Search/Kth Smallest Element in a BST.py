@@ -87,7 +87,7 @@ class Solution(object):
             if not stack : break
             root = stack.pop()
             k -= 1
-            if k == 0 : return root.val 
+            if k == 0 : return root.val
             root = root.right
         return 0
 
