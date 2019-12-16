@@ -24,7 +24,7 @@ plt.plot(x,y2)
 plt.plot(x,y3)
 plt.plot(x,y4)
 plt.xlabel("Z(wi),word frequency")
-plt.ylabel("weights")
+plt.ylabel("P(wordi)")
 # plt.legend([' α = 0.1', 'α = 0.01', 'α = 0.001', 'α = 0.0001'], loc='upper left')
 plt.legend([' β = 0.1', 'β = 0.01', 'β = 0.001', 'β = 0.0001'], loc='upper left')
 plt.show()
@@ -32,4 +32,7 @@ plt.show()
 
 
 
+# x = 0.00089
+# y  = (np.sqrt(x/0.001) + 1)*(0.001/x) * 0.5
+# print(y)
 
