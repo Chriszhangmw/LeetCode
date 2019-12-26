@@ -5,11 +5,7 @@ Given an array of integers nums and an integer threshold, we will choose a posit
 Each result of division is rounded to the nearest integer greater than or equal to that element. (For example: 7/3 = 3 and 10/2 = 5).
 
 It is guaranteed that there will be an answer.
-
-
-
 Example 1:
-
 Input: nums = [1,2,5,9], threshold = 6
 Output: 5
 Explanation: We can get a sum to 17 (1+2+5+9) if the divisor is 1.
