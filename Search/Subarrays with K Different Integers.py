@@ -20,25 +20,27 @@ Output: 3
 Explanation: Subarrays formed with exactly 3 different integers: [1,2,1,3], [2,1,3], [1,3,4].
 '''
 
+import collections
+def tool(A,k):
+    left = 0
+    res = 0
+    cur = collections.defaultdict(int)
+    for i in range(len(A)):
+        temp = A[i]
+        cur[temp] += 1
+        while len(list(cur)) > k:
+
+            cur[A[left]] -= 1
+            if cur[A[left]] == 0:
+                cur.pop(A[left])
+            left += 1
+        res += i - left + 1
+    return res
+
 
 def subarraysWithKDistinct(A,k):
-    from collections import deque
-    left = 0
-    res = []
-    curr = []
-    for i in range(len(A)):
-        e = A[i]
-        curr.append(e)
-        if len(list(set(curr))) == k:
-            res.append(curr)
-            if len(curr) == k:
-                continue
-            else:
-                while len(list(set(curr.pop(A[left])))) == k:
-                    res.append(curr)
-                    left += 1
-    print(res)
-    print(len(res))
+    print(tool(A,k) - tool(A,k-1))
+
 A = [1,2,1,2,3]
 k = 2
 

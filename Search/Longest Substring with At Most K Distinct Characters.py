@@ -16,14 +16,6 @@ def method(s,k):
             s1[key] = value
 
             tt += 1
-
-    # p = sorted([(k, v) for k, v in scount.items()], reverse=True)
-    # print('p is :',p)
-    # s1 = set()
-    # for i in p:
-    #     s1.add(i[0])
-    # s1 = list(sorted(s1,reverse=True)[:k])
-    # s1 = collections.Counter(s1)
     print(s1)
     left = 0
     cnt = 0
