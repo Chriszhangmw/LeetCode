@@ -55,9 +55,32 @@ def maxArray(nums,left,right,maxV):
 
 
 
+def second_time(a):
+    dp = [0] * len(a)
+    if len(a) == 1:
+        return a[0]
+    dp[0] = a[0]
+    res = 0
+    for i in range(len(a)):
+        if a[i] <= 0:
+            continue
+        else:
+            res
+            dp[i] = dp[i-1] + a[i]
+        else:
+            dp[i] = dp[i-1]
+    return max(dp)
+
+
+
+
+
+
+
 a = [-2,1,-3,4,-1,2,1,-5,4]
-b = method2(a,9)
-print(b)
+print(second_time(a))
+# b = method2(a,9)
+# print(b)
 
 
 
