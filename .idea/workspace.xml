@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb226ce9-3fc1-4252-806b-4637f7fe6783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dynamic programming/Longest Valid Parentheses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic programming/Maximum Subarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic programming/Maximum Subarray.py" afterDir="false" />
     </list>
@@ -233,7 +232,8 @@
       <workItem from="1577794836599" duration="11749000" />
       <workItem from="1577885864361" duration="5846000" />
       <workItem from="1577962069281" duration="3219000" />
-      <workItem from="1578075615032" duration="3767000" />
+      <workItem from="1578075615032" duration="3984000" />
+      <workItem from="1578089938222" duration="2632000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1572259078653</created>
@@ -459,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577966362713</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="day 29">
+      <created>1578081930829</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1578081930830</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day4" />
     <MESSAGE value="day5" />
     <MESSAGE value="day6" />
     <MESSAGE value="day7" />
@@ -504,7 +510,8 @@
     <MESSAGE value="day 26" />
     <MESSAGE value="day 27" />
     <MESSAGE value="day 28" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 28" />
+    <MESSAGE value="day 29" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 29" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$Minimum_Size_Subarray_Sum.coverage" NAME="Minimum Size Subarray Sum Coverage Results" MODIFIED="1577565004757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
@@ -537,7 +544,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$Time_Based_Key_Value_Store.coverage" NAME="Time Based Key-Value Store Coverage Results" MODIFIED="1574200979673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$4Sum_II.coverage" NAME="4Sum II Coverage Results" MODIFIED="1574624391551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$Permutation_in_String.coverage" NAME="Permutation in String Coverage Results" MODIFIED="1577888977322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
-    <SUITE FILE_PATH="coverage/LeetCode$Maximum_Subarray.coverage" NAME="Maximum Subarray Coverage Results" MODIFIED="1578081300453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dynamic programming" />
+    <SUITE FILE_PATH="coverage/LeetCode$Maximum_Subarray.coverage" NAME="Maximum Subarray Coverage Results" MODIFIED="1578092342464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dynamic programming" />
     <SUITE FILE_PATH="coverage/LeetCode$Arranging_Coins.coverage" NAME="Arranging Coins Coverage Results" MODIFIED="1574622532438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$test.coverage" NAME="test Coverage Results" MODIFIED="1572866647362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/LeetCode$Koko_Eating_Bananas.coverage" NAME="Koko Eating Bananas Coverage Results" MODIFIED="1574026935755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />

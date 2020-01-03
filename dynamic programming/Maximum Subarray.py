@@ -60,25 +60,37 @@ def second_time(a):
     if len(a) == 1:
         return a[0]
     dp[0] = a[0]
-    res = 0
     for i in range(len(a)):
-        if a[i] <= 0:
-            continue
+        if dp[i-1] < 0:
+            dp[i] = a[i]
         else:
-            res
             dp[i] = dp[i-1] + a[i]
-        else:
-            dp[i] = dp[i-1]
     return max(dp)
 
 
 
 
 
+#可以考虑用双指针
+def shuangzhizhen(a):
+    left = 0
+    res = 0
+    for i in range(len(a)):
+        res += a[i]
+        if a[i] > 0:
+            tmp = []
+            tmp.append(res)
+            while left < i:
+#滑动窗口不行，因为每次减去哪个e可能是负的，减了反而变大，明显不合理，因为res一直累加的原因，反正这个题用滑动窗口是不合适的
+                tmp.append(res - a[left])
+                left += 1
+            res = max(tmp)
+    print(res)
+
 
 
 a = [-2,1,-3,4,-1,2,1,-5,4]
-print(second_time(a))
+print(shuangzhizhen(a))
 # b = method2(a,9)
 # print(b)
 
