@@ -90,7 +90,7 @@ def shuangzhizhen(a):
 
 
 a = [-2,1,-3,4,-1,2,1,-5,4]
-print(shuangzhizhen(a))
+print(second_time(a))
 # b = method2(a,9)
 # print(b)
 

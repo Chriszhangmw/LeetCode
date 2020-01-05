@@ -33,6 +33,11 @@ print(a)
 print(b)
 
 
+def second_time(n):
+
+    dp = [0] * n
+
+
 
 
 
