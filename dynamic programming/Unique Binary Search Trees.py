@@ -28,17 +28,22 @@ def method(n):
             dp[i] += dp[j]*dp[i-j-1]
     return dp,dp[n-1]
 
-a,b = method(7)
-print(a)
-print(b)
+# a,b = method(7)
+# print(a)
+# print(b)
 
 
 def second_time(n):
-
     dp = [0] * n
+    dp[0] = 1
+    dp[1] = 2
+    dp[2] = 5
+    for i in range(2,n):
+        dp[i] = dp[i-1] + 2 + dp[i-2]
+    print(dp[-1])
 
 
-
+second_time(3)
 
 
 

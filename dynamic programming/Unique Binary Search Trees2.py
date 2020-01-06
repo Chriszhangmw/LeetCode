@@ -22,6 +22,56 @@ The above output corresponds to the 5 unique BST's shown below:
    2     1         2                 3
 '''
 
+class Node():
+    def __init__(self,x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+def second(s,e):
+    if s > e :
+        return [None]
+    res = []
+    for curr_root in range(s,e+1):
+        left = second(s,curr_root-1)
+        right = second(curr_root+1,e)
+
+        for e in left:
+            for r in right:
+                root = Node(curr_root)
+                root.left = e
+                root.right = r
+                res.append(root)
+    return res
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class TreeNode():
     def __init__(self,x):
         self.val = x
@@ -31,6 +81,7 @@ class TreeNode():
 def generateTree(n):
     if n==0:return []
     return helper(1,n)
+
 def helper(begin,end):
     if begin > end:
         return [None]
