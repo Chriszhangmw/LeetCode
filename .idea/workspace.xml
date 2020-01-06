@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb226ce9-3fc1-4252-806b-4637f7fe6783" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dynamic programming/Triangle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic programming/Unique Binary Search Trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic programming/Unique Binary Search Trees.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic programming/Unique Binary Search Trees2.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic programming/Unique Binary Search Trees2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Unique Binary Search Trees">
+  <component name="RunManager" selected="Python.Triangle">
     <configuration name="Decode Ways" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,28 +93,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Permutation in String" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search/Permutation in String.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Subarrays with K Different Integers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,6 +107,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search/Subarrays with K Different Integers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Triangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic programming/Triangle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Triangle" />
         <item itemvalue="Python.Unique Binary Search Trees" />
         <item itemvalue="Python.Decode Ways" />
         <item itemvalue="Python.Maximum Subarray" />
         <item itemvalue="Python.Subarrays with K Different Integers" />
-        <item itemvalue="Python.Permutation in String" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +237,7 @@
       <workItem from="1578121967657" duration="320000" />
       <workItem from="1578225378865" duration="8496000" />
       <workItem from="1578301450316" duration="97000" />
-      <workItem from="1578313763003" duration="2186000" />
+      <workItem from="1578313763003" duration="3992000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1572259078653</created>
@@ -485,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578235497509</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="day 31">
+      <created>1578343838364</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1578343838364</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day6" />
     <MESSAGE value="day7" />
     <MESSAGE value="day8" />
     <MESSAGE value="day9" />
@@ -530,7 +535,8 @@
     <MESSAGE value="day 28" />
     <MESSAGE value="day 29" />
     <MESSAGE value="day 30" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 30" />
+    <MESSAGE value="day 31" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 31" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$Minimum_Size_Subarray_Sum.coverage" NAME="Minimum Size Subarray Sum Coverage Results" MODIFIED="1577565004757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
@@ -539,6 +545,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$Find_Peak_Element.coverage" NAME="Find Peak Element Coverage Results" MODIFIED="1577310440691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$reverse_arry.coverage" NAME="reverse_arry Coverage Results" MODIFIED="1572732595359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$Largest_Number.coverage" NAME="Largest Number Coverage Results" MODIFIED="1573422065552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
+    <SUITE FILE_PATH="coverage/LeetCode$Triangle.coverage" NAME="Triangle Coverage Results" MODIFIED="1578349717949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dynamic programming" />
     <SUITE FILE_PATH="coverage/LeetCode$draw_plot.coverage" NAME="draw_plot Coverage Results" MODIFIED="1576265085487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$Merge_Intervals.coverage" NAME="Merge Intervals Coverage Results" MODIFIED="1573336986559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/LeetCode$First_Bad_Version.coverage" NAME="First Bad Version Coverage Results" MODIFIED="1576165169942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
