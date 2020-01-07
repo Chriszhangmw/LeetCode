@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb226ce9-3fc1-4252-806b-4637f7fe6783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dynamic programming/Triangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic programming/Palindrome Partitioning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Triangle">
+  <component name="RunManager" selected="Python.Palindrome Partitioning">
     <configuration name="Decode Ways" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Subarrays with K Different Integers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Palindrome Partitioning" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,12 +101,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Search" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamic programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Search/Subarrays with K Different Integers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic programming/Palindrome Partitioning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Palindrome Partitioning" />
         <item itemvalue="Python.Triangle" />
         <item itemvalue="Python.Unique Binary Search Trees" />
         <item itemvalue="Python.Decode Ways" />
         <item itemvalue="Python.Maximum Subarray" />
-        <item itemvalue="Python.Subarrays with K Different Integers" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +237,8 @@
       <workItem from="1578121967657" duration="320000" />
       <workItem from="1578225378865" duration="8496000" />
       <workItem from="1578301450316" duration="97000" />
-      <workItem from="1578313763003" duration="3992000" />
+      <workItem from="1578313763003" duration="4029000" />
+      <workItem from="1578427929948" duration="4296000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1572259078653</created>
@@ -491,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578343838364</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="day 32">
+      <created>1578350387532</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1578350387532</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day7" />
     <MESSAGE value="day8" />
     <MESSAGE value="day9" />
     <MESSAGE value="day 10" />
@@ -536,7 +543,8 @@
     <MESSAGE value="day 29" />
     <MESSAGE value="day 30" />
     <MESSAGE value="day 31" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 31" />
+    <MESSAGE value="day 32" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 32" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$Minimum_Size_Subarray_Sum.coverage" NAME="Minimum Size Subarray Sum Coverage Results" MODIFIED="1577565004757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
@@ -564,6 +572,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$Find_All_Anagrams_in_a_String.coverage" NAME="Find All Anagrams in a String Coverage Results" MODIFIED="1577742145302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$Ugly_Number_III.coverage" NAME="Ugly Number III Coverage Results" MODIFIED="1574287904197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$Kth_Smallest_Element_in_a_BST.coverage" NAME="Kth Smallest Element in a BST Coverage Results" MODIFIED="1575901824841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
+    <SUITE FILE_PATH="coverage/LeetCode$Palindrome_Partitioning.coverage" NAME="Palindrome Partitioning Coverage Results" MODIFIED="1578433022171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dynamic programming" />
     <SUITE FILE_PATH="coverage/LeetCode$arry_sum_number.coverage" NAME="arry_sum_number Coverage Results" MODIFIED="1572815891335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/LeetCode$Regular_Expression_Matching.coverage" NAME="Regular Expression Matching Coverage Results" MODIFIED="1572344830405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$Find_the_Smallest_Divisor_Given_a_Threshold.coverage" NAME="Find the Smallest Divisor Given a Threshold Coverage Results" MODIFIED="1577391676282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
