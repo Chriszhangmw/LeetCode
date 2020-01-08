@@ -26,9 +26,6 @@ def method(s,path,res):
         curr_s = s[:i]
         if isPali(curr_s):
             method(s[i:],path+s[:i],res)
-
-
-
 def main(s):
     res = []
     method(s,[],res)
