@@ -29,6 +29,39 @@ class TreeNode:
         self.left = None
         self.right = None
 
+def method(root,depth):
+    def help_(root,depth):
+        for node in root:
+            if len(res) == depth:
+                res.append([])
+            res[depth].append(node.val)
+            if node.left:
+                method(node.left,depth+1)
+            if node.right:
+                method(node.right,depth+1)
+
+    res = []
+    if root == []:
+        return res
+    depth = 0
+    help_(root,depth)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
