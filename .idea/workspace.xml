@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb226ce9-3fc1-4252-806b-4637f7fe6783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linkedin/Minimum Window Substring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/Shortest Word Distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Maximum Depth of Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Word Ladder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search/Minimum Window Substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search/Minimum Window Substring.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +28,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ChatBots/knowledge-driven-dialogue-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -247,7 +246,8 @@
       <workItem from="1578571918449" duration="10547000" />
       <workItem from="1578652373809" duration="30000" />
       <workItem from="1578653729359" duration="8154000" />
-      <workItem from="1578736754000" duration="938000" />
+      <workItem from="1578736754000" duration="1737000" />
+      <workItem from="1578769476843" duration="2771000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1572259078653</created>
@@ -543,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578665156516</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="day 38">
+      <created>1578740638685</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1578740638685</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 13" />
     <MESSAGE value="day 14" />
     <MESSAGE value="day 15" />
     <MESSAGE value="day 16" />
@@ -588,7 +594,8 @@
     <MESSAGE value="day 35" />
     <MESSAGE value="day 36" />
     <MESSAGE value="day 37" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 37" />
+    <MESSAGE value="day 38" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 38" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$Minimum_Size_Subarray_Sum.coverage" NAME="Minimum Size Subarray Sum Coverage Results" MODIFIED="1577565004757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
