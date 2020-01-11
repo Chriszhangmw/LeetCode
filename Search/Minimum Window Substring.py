@@ -22,8 +22,9 @@ def method(s,t):
             continue
         else:
             tcount[tmp] -= 1
-            if tcount[tmp] == 0:
-                cnt += 1
+            cnt += 1
+            # if tcount[tmp] == 0:
+            #     cnt += 1
             while cnt == len(t):
                 if (i-left + 1) < minLen:
                     minLen = i-left + 1
@@ -32,8 +33,9 @@ def method(s,t):
                 left += 1
                 if de_c in tcount.keys():
                     tcount[de_c] += 1
-                    if tcount[de_c] == 1:
-                        cnt -=1
+                    cnt -= 1
+                    # if tcount[de_c] == 1:
+                    #     cnt -=1
                 else:
                     continue
     print(minLen)
