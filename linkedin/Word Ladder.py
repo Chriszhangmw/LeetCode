@@ -119,6 +119,49 @@ class Solution(object):
         return 0
 
 
+from collections import defaultdict
+import collections
+
+
+class Solution(object):
+
+    def ladderLength(self, beginWord, endWord, wordList):
+        """
+        :type beginWord: str
+        :type endWord: str
+        :type wordList: List[str]
+        :rtype: int
+        """
+        if endWord not in wordList or not endWord or not beginWord or not wordList:
+            return 0
+
+        states = defaultdict(list)
+        for word in wordList:
+            for i in range(len(word)):
+                states[word[:i] + '*' + word[i + 1:]].append(word)
+
+        search = collections.deque([(beginWord, 1)])
+        seen = set()
+        seen.add(beginWord)
+        while search:
+            current_node, path = search.popleft()
+            # current_word, level = queue.popleft()
+            # if current_node not in seen:
+            #     seen.add(current_node)
+            for i in range(len(current_node)):
+                state_word = states[current_node[:i] + '*' + current_node[i + 1:]]
+                if len(state_word) > 0:
+                    # if endWord in state_word:
+                    #     return path + 1
+
+                    for word in state_word:
+                        if word == endWord:
+                            return path + 1
+                        if word not in seen:
+                            seen.add(word)
+                            search.append((word, path + 1))
+                states[current_node[:i] + '*' + current_node[i + 1:]] = []
+        return 0
 
 
 

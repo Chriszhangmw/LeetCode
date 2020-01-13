@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb226ce9-3fc1-4252-806b-4637f7fe6783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linkedin/Maximum Depth of Binary Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/Word Ladder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Binary Tree Upside Down.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Can Place Flowers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Isomorphic Strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Number of Islands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/findCelebrity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/Word Ladder.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/Word Ladder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/project_chris/NLPTraining" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -49,8 +53,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Minimum Window Substring (1)">
-    <configuration name="Combination Sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Can Place Flowers">
+    <configuration name="Can Place Flowers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,7 +67,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/Combination Sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/Can Place Flowers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Search in Rotated Sorted Array" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Number of Islands" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,7 +155,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/Search in Rotated Sorted Array.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedin/Number of Islands.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Can Place Flowers" />
+        <item itemvalue="Python.Number of Islands" />
         <item itemvalue="Python.Minimum Window Substring (1)" />
         <item itemvalue="Python.Minimum Window Substring" />
         <item itemvalue="Python.Maximum Subarray" />
-        <item itemvalue="Python.Search in Rotated Sorted Array" />
-        <item itemvalue="Python.Combination Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +251,9 @@
       <workItem from="1578652373809" duration="30000" />
       <workItem from="1578653729359" duration="8154000" />
       <workItem from="1578736754000" duration="1737000" />
-      <workItem from="1578769476843" duration="2771000" />
+      <workItem from="1578769476843" duration="4094000" />
+      <workItem from="1578836241484" duration="6112000" />
+      <workItem from="1578911241231" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1572259078653</created>
@@ -550,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578740638685</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="day 39">
+      <created>1578775280005</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1578775280005</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 14" />
     <MESSAGE value="day 15" />
     <MESSAGE value="day 16" />
     <MESSAGE value="day 17" />
@@ -595,7 +607,8 @@
     <MESSAGE value="day 36" />
     <MESSAGE value="day 37" />
     <MESSAGE value="day 38" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 38" />
+    <MESSAGE value="day 39" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 39" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$Minimum_Size_Subarray_Sum.coverage" NAME="Minimum Size Subarray Sum Coverage Results" MODIFIED="1577565004757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
@@ -621,6 +634,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$Intersection_of_Two_Arrays_II.coverage" NAME="Intersection of Two Arrays II Coverage Results" MODIFIED="1573423141004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/LeetCode$Subarray_Product_Less_Than_K.coverage" NAME="Subarray Product Less Than K Coverage Results" MODIFIED="1577567834752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$Largest_Divisible_Subset.coverage" NAME="Largest Divisible Subset Coverage Results" MODIFIED="1572730241703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode$Can_Place_Flowers.coverage" NAME="Can Place Flowers Coverage Results" MODIFIED="1578863587557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
     <SUITE FILE_PATH="coverage/LeetCode$Pow_x__n_.coverage" NAME="Pow(x, n) Coverage Results" MODIFIED="1574888701952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$Longest_Substring_Without_Repeating_Characters.coverage" NAME="Longest Substring Without Repeating Characters Coverage Results" MODIFIED="1577820020457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$Find_All_Anagrams_in_a_String.coverage" NAME="Find All Anagrams in a String Coverage Results" MODIFIED="1577742145302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
@@ -633,6 +647,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$Find_the_Smallest_Divisor_Given_a_Threshold.coverage" NAME="Find the Smallest Divisor Given a Threshold Coverage Results" MODIFIED="1577391676282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$Longest_Substring_with_At_Most_K_Distinct_Characters.coverage" NAME="Longest Substring with At Most K Distinct Characters Coverage Results" MODIFIED="1577804188168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$Time_Based_Key_Value_Store.coverage" NAME="Time Based Key-Value Store Coverage Results" MODIFIED="1574200979673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
+    <SUITE FILE_PATH="coverage/LeetCode$Number_of_Islands.coverage" NAME="Number of Islands Coverage Results" MODIFIED="1578839332114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedin" />
     <SUITE FILE_PATH="coverage/LeetCode$4Sum_II.coverage" NAME="4Sum II Coverage Results" MODIFIED="1574624391551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$Permutation_in_String.coverage" NAME="Permutation in String Coverage Results" MODIFIED="1577888977322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
     <SUITE FILE_PATH="coverage/LeetCode$Decode_Ways.coverage" NAME="Decode Ways Coverage Results" MODIFIED="1578230115607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dynamic programming" />
