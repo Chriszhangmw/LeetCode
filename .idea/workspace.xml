@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb226ce9-3fc1-4252-806b-4637f7fe6783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linkedin/Insert Delete GetRandom O(1).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/design/All O`one Data Structure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/design/Design HashMap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/design/Max Stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/design/Shortest Word Distance II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/design/Two Sum III - Data structure design.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Array and strings/Can Place Flowers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Array and strings/Find the Celebrity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Array and strings/Integer to English Words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Array and strings/Isomorphic Strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Array and strings/Minimum Window Substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Array and strings/Shortest Word Distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Array and strings/Text Justification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Array and strings/two sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/Array and strings/valid number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github\LeetCode\linkedin\design" />
       <recent name="E:\github\LeetCode" />
       <recent name="E:\github\LeetCode\Sort" />
       <recent name="E:\github\LeetCode\dynamic programming" />
@@ -262,7 +266,9 @@
       <workItem from="1579198645981" duration="605000" />
       <workItem from="1579299032362" duration="622000" />
       <workItem from="1579340545918" duration="599000" />
-      <workItem from="1579380269861" duration="525000" />
+      <workItem from="1579380269861" duration="1297000" />
+      <workItem from="1579446523381" duration="604000" />
+      <workItem from="1579455308302" duration="3277000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1572259078653</created>
@@ -593,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579299049188</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="day 42">
+      <created>1579380940910</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1579380940910</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,7 +626,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 17" />
     <MESSAGE value="day 18" />
     <MESSAGE value="day 19" />
     <MESSAGE value="day 20" />
@@ -638,7 +650,8 @@
     <MESSAGE value="day 39" />
     <MESSAGE value="day 40" />
     <MESSAGE value="day 41" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 41" />
+    <MESSAGE value="day 42" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 42" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$Minimum_Size_Subarray_Sum.coverage" NAME="Minimum Size Subarray Sum Coverage Results" MODIFIED="1577565004757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
