@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb226ce9-3fc1-4252-806b-4637f7fe6783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linkedin/trees and graphs/Binary Tree Level Order Traversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/trees and graphs/Binary Tree Upside Down.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/trees and graphs/Closest Binary Search Tree Value II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/trees and graphs/Lowest Common Ancestor of a Binary Search Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/trees and graphs/Maximum Depth of Binary Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/trees and graphs/Number of Islands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/trees and graphs/Word Ladder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/trees and graphs/Find Leaves of Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/trees and graphs/Second Minimum Node In a Binary Tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -268,14 +263,8 @@
       <workItem from="1579446523381" duration="604000" />
       <workItem from="1579455308302" duration="3897000" />
       <workItem from="1579512052191" duration="2125000" />
-      <workItem from="1579535424890" duration="3722000" />
-    </task>
-    <task id="LOCAL-00001" summary="day1">
-      <created>1572259078653</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1572259078653</updated>
+      <workItem from="1579535424890" duration="3750000" />
+      <workItem from="1579627296077" duration="946000" />
     </task>
     <task id="LOCAL-00002" summary="day4">
       <created>1572517981041</created>
@@ -613,7 +602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579462430815</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="day 44">
+      <created>1579549924434</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1579549924434</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 19" />
     <MESSAGE value="day 20" />
     <MESSAGE value="day 21" />
     <MESSAGE value="day 22" />
@@ -658,7 +653,8 @@
     <MESSAGE value="day 41" />
     <MESSAGE value="day 42" />
     <MESSAGE value="day 43" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 43" />
+    <MESSAGE value="day 44" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 44" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$Minimum_Size_Subarray_Sum.coverage" NAME="Minimum Size Subarray Sum Coverage Results" MODIFIED="1577565004757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Search" />
